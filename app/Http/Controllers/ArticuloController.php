@@ -38,14 +38,13 @@ class ArticuloController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {        
+    {
         $articulos = new Articulo();
 
         $articulos->codigo = $request->get('codigo');
         $articulos->descripcion = $request->get('descripcion');
         $articulos->cantidad = $request->get('cantidad');
         $articulos->precio = $request->get('precio');
-
         $articulos->save();
 
         return redirect('/articulos');

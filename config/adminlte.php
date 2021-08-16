@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'Fortes',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -248,19 +248,19 @@ return [
             'label'       => 'CRUD',
             'label_color' => 'warning',
         ],
-        ['header' => 'Configuración de la cuenta'],
+        ['header' => 'Configuração de conta'],
         [
             'text' => 'Perfil de Usuario',
             'url'  => 'user/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'change_password',
+            'text' => 'mudar_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text'    => 'multilevel',
+            'text'    => 'niveis',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
                 [
